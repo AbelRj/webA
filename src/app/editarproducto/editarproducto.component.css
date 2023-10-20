@@ -1,0 +1,27 @@
+.formulario-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .formulario {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .formulario label, .formulario input, .formulario textarea {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .formulario button {
+    margin-top: 10px;
+  }
+  
